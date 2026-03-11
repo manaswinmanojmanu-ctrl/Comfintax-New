@@ -28,13 +28,17 @@ export const Header = ({ isScrolled }) => {
           <div className="flex items-center">
             <a
               href="#home"
-              className="text-2xl font-bold text-gray-900 hover:text-yellow-600 transition-colors"
               onClick={(e) => {
                 e.preventDefault();
                 scrollToSection('#home');
               }}
+              className="transition-opacity hover:opacity-80"
             >
-              Comfintax <span className="text-yellow-600">Advisors</span>
+              <img 
+                src="/comfintax-logo.png" 
+                alt="Comfintax Advisors" 
+                className="h-10 lg:h-12 w-auto"
+              />
             </a>
           </div>
 
