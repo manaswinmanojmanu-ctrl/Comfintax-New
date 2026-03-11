@@ -139,7 +139,7 @@ export const faqData = [
   {
     id: 2,
     question: "Do you work with early-stage startups?",
-    answer: "Absolutely! We work with startups at all stages—from pre-seed to Series B and beyond. Our flexible service models are designed to scale with your growth."
+    answer: "Absolutely! We work with startups at all stages—from an Idea to pre-seed to Series A. Our flexible service models are designed to scale with your growth."
   },
   {
     id: 3,
