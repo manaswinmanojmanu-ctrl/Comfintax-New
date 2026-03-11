@@ -1,6 +1,7 @@
 import React from 'react';
 import { Linkedin } from 'lucide-react';
 import { teamData } from '../../data/mockData';
+import { Avatar, AvatarImage, AvatarFallback } from '../ui/avatar';
 
 export const Team = () => {
   return (
@@ -29,17 +30,17 @@ export const Team = () => {
               className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
               {/* Image */}
-              <div className="relative h-80 overflow-hidden bg-gray-100">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent opacity-40 group-hover:opacity-60 transition-opacity duration-300"></div>
-                
-                {/* Social Icon */}
-                <div className="absolute top-4 right-4 w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:scale-110 cursor-pointer hover:bg-yellow-600">
-                  <Linkedin className="w-5 h-5 text-white" />
+              <div className="relative bg-gray-50 flex items-center justify-center pt-8 pb-4">
+                <div className="w-32 h-32">
+                  <Avatar className="w-32 h-32">
+                    <AvatarImage src="" alt={member.name} />
+                    <AvatarFallback>
+                      <svg viewBox="0 0 128 128" className="w-16 h-16 text-gray-400" fill="currentColor" aria-hidden="true">
+                        <circle cx="64" cy="48" r="24"></circle>
+                        <path d="M20 112c0-22 20-32 44-32s44 10 44 32v4H20z"></path>
+                      </svg>
+                    </AvatarFallback>
+                  </Avatar>
                 </div>
               </div>
 
