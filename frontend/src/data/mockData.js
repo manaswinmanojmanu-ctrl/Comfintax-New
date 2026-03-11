@@ -109,31 +109,24 @@ export const processData = [
 export const teamData = [
   {
     id: 1,
-    name: "Rajesh Kumar",
-    role: "Founder & Managing Partner",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
-    bio: "CA with 15+ years in startup financial advisory"
+    name: "CA Dilip Adiga",
+    role: "Heads Valuations, Virtual CFO & Transaction Advisory",
+    image: "/ca-dilip-adiga.png",
+    bio: "Expert in business valuations and strategic financial planning"
   },
   {
     id: 2,
-    name: "Priya Sharma",
-    role: "Head of Taxation",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
-    bio: "Tax specialist with expertise in GST & international taxation"
+    name: "CA Varun Kumar KN",
+    role: "Heads Audit & Taxation",
+    image: "/ca-varun-kumar.png",
+    bio: "Specialist in audit, taxation and regulatory compliance"
   },
   {
     id: 3,
-    name: "Amit Patel",
-    role: "Virtual CFO Lead",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400",
-    bio: "Strategic finance leader with startup scaling experience"
-  },
-  {
-    id: 4,
-    name: "Sneha Reddy",
-    role: "Fundraising Advisor",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
-    bio: "Helped raise 100Cr+ for startups across sectors"
+    name: "Sharath M",
+    role: "Heads Operations, Planning and Research",
+    image: "/sharath-m.png",
+    bio: "Operations expert focused on process optimization and research"
   }
 ];
 
