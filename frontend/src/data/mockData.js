@@ -18,7 +18,7 @@ export const heroData = {
   ctaSecondary: "Learn More",
   stats: [
     { value: "15+", label: "Years Experience" },
-    { value: "200+", label: "Clients Served" },
+    { value: "20+", label: "Clients Served" },
     { value: "98%", label: "Client Satisfaction" },
     { value: "50Cr+", label: "Funds Raised" }
   ],

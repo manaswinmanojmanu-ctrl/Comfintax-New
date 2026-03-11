@@ -66,7 +66,7 @@ export const Process = () => {
             Ready to Get Started?
           </h3>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Join 200+ startups who trust us with their financial journey. 
+            Join 20+ startups who trust us with their financial journey. 
             Schedule a free consultation today and discover how we can help you scale.
           </p>
           <button
