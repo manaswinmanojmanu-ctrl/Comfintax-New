@@ -165,8 +165,8 @@ export const faqData = [
 
 export const contactInfo = {
   email: "info@comfintax.com",
-  phone: "+91 98765 43210",
-  address: "Mumbai, India",
+  phone: "+91 94825 84332",
+  address: "INDIQUBE South Mile, Jayanagar, Bengaluru.",
   socialMedia: {
     linkedin: "https://linkedin.com/company/comfintax",
     twitter: "https://twitter.com/comfintax"
